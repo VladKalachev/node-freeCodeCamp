@@ -1,7 +1,11 @@
-console.log('Node!');
+// Modules
+const john = 'john';
+const peter = 'peter';
 
-// __dirname - path ti cyrrent directory
-// __filename = file name
-// require - function to use modules (CommonJS)
-// module - info about current module (file)
-// process - info about env where the program is being executed
+const sayHi = (name) => {
+    console.log(`Hello there ${name}`);
+}
+
+sayHi('susan');
+sayHi(john);
+sayHi(peter);
