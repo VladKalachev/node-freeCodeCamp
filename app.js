@@ -7,4 +7,3 @@ require('./7-mind-grenade');
 // sayHi('susan');
 // sayHi(john);
 // sayHi(peter);
-
